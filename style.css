@@ -110,6 +110,15 @@ img {
   background-color: black;
   color: white;
 }
+.nav-link {
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover{
+  background-color: white;
+  color: black i !important;
+}
 
 @media (max-width: 767px) {
   .justify-content-around.align-items-center.mt-3.gallery-header.mb-2 {
